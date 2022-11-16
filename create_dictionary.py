@@ -11,5 +11,6 @@ def create_dictionary(key, value):
     i = 0
     while i< len(key):
         d[key[i]] = value[i]
+        i+=1
 
     return d
