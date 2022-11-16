@@ -7,4 +7,9 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    d = {}
+    i = 0
+    while i< len(key):
+        d[key[i]] = value[i]
+
+    return d
